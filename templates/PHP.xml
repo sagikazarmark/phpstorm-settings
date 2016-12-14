@@ -1,0 +1,54 @@
+<templateSet group="PHP">
+  <template name="func" value="$VISIBILITY$function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="Create a function" toReformat="true" toShortenFQNames="true">
+    <variable name="VISIBILITY" expression="enum('public','protected','private','')" defaultValue="&quot;public &quot;" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;function&quot;" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="vdu" value="var_dump($VARIABLE$);$EXIT$" description="Var Dump and Exit" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <variable name="EXIT" expression="" defaultValue="&quot; exit;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="propint" value="/**&#10; * @var int&#10; */&#10;private $$$NAME$;" description="Integer Property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="propbool" value="/**&#10; * @var bool&#10; */&#10;private $$$NAME$;" description="Boolean Property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="propstr" value="/**&#10; * @var string&#10; */&#10;private $$$NAME$;" description="String Property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ctor" value="public function __construct($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="Create a constructor" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="du" value="dump($VARIABLE$);" description="Var Dump and Exit" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="&quot;var&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="prop" value="/**&#10; * @var $TYPE$&#10; */&#10;private $$$NAME$;" description="Boolean Property" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,54 @@
+<templateSet group="Doctrine">
+  <template name="docid" value="/**&#10; * @ORM\Column(type=&quot;integer&quot;)&#10; * @ORM\Id&#10; * @ORM\GeneratedValue&#10; *&#10; * @var integer&#10; */&#10;private $id;" description="Doctrine ID Property" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="docname" value="/**&#10; * @ORM\Column(type=&quot;string&quot;)&#10; *&#10; * @var string&#10; */&#10;private $name;" description="Doctrine Name Property" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="docdesc" value="/**&#10; * @ORM\Column(type=&quot;text&quot;, nullable=true)&#10; *&#10; * @var string&#10; */&#10;private $description;" description="Doctrine Description Property" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="docslug" value="/**&#10; * @Gedmo\Slug(fields={&quot;$FIELD$&quot;}, separator=&quot;_&quot;, updatable=true)&#10; * @ORM\Column(type=&quot;string&quot;, unique=true)&#10; *&#10; * @var string&#10; */&#10;private $slug;" description="Doctrine Slug Property" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD" expression="" defaultValue="&quot;name'" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="docint" value="/**&#10; * @ORM\Column(type=&quot;integer&quot;)&#10; *&#10; * @var integer&#10; */&#10;private $$$NAME$;" description="Doctrine Integer Property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="docstr" value="/**&#10; * @ORM\Column(type=&quot;string&quot;)&#10; *&#10; * @var string&#10; */&#10;private $$$NAME$;" description="Doctrine String Property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="docbool" value="/**&#10; * @ORM\Column(type=&quot;boolean&quot;)&#10; *&#10; * @var boolean&#10; */&#10;private $$$NAME$;" description="Doctrine Boolean Property" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="twostate" value="/**&#10; * Checks if the object is in enabled state&#10; *&#10; * @return boolean&#10; */&#10;public function isEnabled()&#10;{&#10;    return $this-&gt;$NAME$;&#10;}&#10;&#10;/**&#10; * Sets the object to enabled state&#10; */&#10;public function enable()&#10;{&#10;    $this-&gt;$NAME$ = true;&#10;}&#10;&#10;/**&#10; * Sets the object to disabled state&#10; */&#10;public function disable()&#10;{&#10;    $this-&gt;$NAME$ = false;&#10;}" description="Two state methods for Doctrine entity" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="doconeone" value="/**&#10; * @ORM\OneToOne(targetEntity=&quot;$TARGET$&quot;)&#10; */&#10;private $$$NAME$;" description="Doctrine One to One relation" toReformat="true" toShortenFQNames="true">
+    <variable name="TARGET" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

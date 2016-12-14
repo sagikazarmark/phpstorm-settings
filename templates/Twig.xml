@@ -1,0 +1,14 @@
+<templateSet group="Twig">
+  <template name="set" value="{% set $VARIABLE$='$VALUE$' %}" description="Variable set" toReformat="true" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="else" value="{% else %}" description="Else" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>

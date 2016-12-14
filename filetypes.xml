@@ -1,0 +1,45 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_components.*;_svn;rcs;" />
+    <extensionMap>
+      <mapping pattern="docker_build" type="Bash" />
+      <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping pattern="Dockerfile.template" type="Dockerfile" />
+      <mapping pattern=".php_cs" type="PHP" />
+      <mapping pattern="publisher" type="PHP" />
+      <mapping pattern="worker" type="PHP" />
+      <mapping pattern="bin/worker" type="PHP" />
+      <mapping pattern=".php_cs.dist" type="PHP" />
+      <mapping pattern="MAINTAINERS" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern="bin/docker_build" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="ACKNOWLEDGMENTS" type="PLAIN_TEXT" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern="etc/docker/test/Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="favicons" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
+      <mapping pattern="7aff0a" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping ext="rake" type="PLAIN_TEXT" />
+      <mapping ext="gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
+      <mapping ext="env" type="PLAIN_TEXT" />
+      <mapping ext="xliff" type="XML" />
+      <mapping ext="xlf" type="XML" />
+      <mapping pattern="*.yml.dist" type="YAML" />
+      <mapping pattern="*.yml.example" type="YAML" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="vw" type="DBN-SQL" />
+    </extensionMap>
+  </component>
+</application>

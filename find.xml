@@ -1,0 +1,25 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="Project 'creatools'" />
+    <option name="defaultScopeName" value="Project 'creatools'" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="Project 'creatools'" />
+    <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
+      <mask>*.as</mask>
+      <mask>*.css</mask>
+      <mask>*.mxml</mask>
+      <mask>*Bundle.php</mask>
+      <mask>*.twig.html</mask>
+      <mask>*.tpl</mask>
+      <mask>*.yml</mask>
+      <mask>*.php</mask>
+    </recentFileMasks>
+  </component>
+</application>

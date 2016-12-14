@@ -1,0 +1,15 @@
+<templateSet group="Testing">
+  <template name="spec" value="function it_$BEHAVIOR$()&#10;{&#10;    $END$&#10;}" description="PHPSpec test" toReformat="true" toShortenFQNames="true">
+    <variable name="BEHAVIOR" expression="" defaultValue="&quot;does_something&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="specimpl" value="function it_is_$BEHAVIOR$()&#10;{&#10;    $this-&gt;shouldImplement($INTERFACE$);$END$&#10;}" description="PHPSpec test implementation" toReformat="true" toShortenFQNames="true">
+    <variable name="BEHAVIOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INTERFACE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

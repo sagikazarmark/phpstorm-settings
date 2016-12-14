@@ -1,0 +1,155 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AnnotationPHP</id>
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpIllegalPsrClassPathInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="Default" />
+  </component>
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="EXT_CONFIGURATION">
+      <value>
+        <option name="CVS_RSH" value="ssh" />
+        <option name="PRIVATE_KEY_FILE" value="" />
+        <option name="ADDITIONAL_PARAMETERS" value="" />
+        <option name="USE_INTERNAL_SSH_IMPLEMENTATION" value="false" />
+      </value>
+    </option>
+    <option name="SSH_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="LOCAL_CONFIGURATION">
+      <value>
+        <option name="PATH_TO_CVS_CLIENT" value="cvs" />
+      </value>
+    </option>
+    <option name="PROXY_SETTINGS">
+      <value>
+        <option name="USE_PROXY" value="false" />
+        <option name="PROXY_HOST" value="" />
+        <option name="PROXY_PORT" value="8080" />
+        <option name="TYPE" value="0" />
+        <option name="LOGIN" value="" />
+        <option name="PASSWORD" value="" />
+      </value>
+    </option>
+    <option name="SSH_FOR_EXT_CONFIGURATION">
+      <value SSH_TYPE="SSH1, SSH2">
+        <option name="USE_PPK" value="false" />
+        <option name="PATH_TO_PPK" value="" />
+      </value>
+    </option>
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+    <option name="TIMEOUT" value="10" />
+    <option name="MAKE_CHECKED_OUT_FILES_READONLY" value="false" />
+    <option name="CHECKOUT_PRUNE_EMPTY_DIRECTORIES" value="true" />
+    <option name="CHECKOUT_KEYWORD_SUBSTITUTION" />
+    <option name="SHOW_RESTORE_DIRECTORIES_CONFIRMATION" value="true" />
+    <option name="ENCODING" value="Default" />
+    <option name="USE_GZIP" value="false" />
+    <option name="DO_OUTPUT" value="false" />
+    <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
+    <option name="SHOW_PATH" value="true" />
+  </component>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
+  <component name="PhpRefactoringSettings">
+    <option name="RENAME_SEARCH_NON_CODE_FOR_CLASS" value="true" />
+    <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
+  </component>
+  <component name="RecentTaskRepositories">
+    <GitHub shared="false" url="github.com">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <password />
+      <token>dfc8df9ddf9cdf9ddf9edf99df99dfcedfc8df93df9cdf93df9edf9bdf9adfcfdf99df98dfccdf99dfccdfcedfc8dfcbdf9ddf9bdf9edf99dfc8df9edf99df9edfcfdf9cdfcbdfcbdf9edf99df99dfcb</token>
+      <option name="loginAnonymously" value="false" />
+      <option name="repoAuthor" value="portphp" />
+      <option name="repoName" value="portphp" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <option name="user" value="" />
+      <username />
+    </GitHub>
+    <Gitlab shared="false" url="https://gitlab.indigophp.com">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <option name="currentProject">
+        <GitlabProject id="28" />
+      </option>
+      <password>dfc1dfdfdfccdfc9df93dfe6dfd0dffddfd2dfccdf99dfd2dff3df9bdf98dfd2dfe4dfdbdfc0dfff</password>
+      <option name="loginAnonymously" value="false" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <username />
+    </Gitlab>
+    <Gitlab shared="false" url="https://gitlab.firstcomputer.hu">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <option name="currentProject">
+        <GitlabProject id="41" />
+      </option>
+      <password>dfc2dfe2dfecdfffdfe1dff2dffbdfe4dffddfdbdfcfdfe2dfdadfc9dff9dfeedffadff2dfcfdffe</password>
+      <option name="loginAnonymously" value="false" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="false" />
+      <option name="useProxy" value="false" />
+      <username />
+    </Gitlab>
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://svn.db-n.com/eurogate/trunk" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://svn.db-n.com/eurogate/trunk" />
+      </list>
+    </option>
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Jekyll Post" />
+          </list>
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+</application>
