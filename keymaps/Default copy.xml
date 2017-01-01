@@ -34,7 +34,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
@@ -54,6 +55,7 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="XDebugger.CopyWatch" />
+  <action id="context.clear" />
   <action id="openAssertEqualsDiff" />
   <action id="org.intellij.plugins.markdown.ui.actions.editorLayout.CyclicSplitLayoutChangeAction" />
 </keymap>
